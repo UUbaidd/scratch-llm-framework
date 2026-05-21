@@ -1,4 +1,4 @@
-This is transformer from scratch. Transformer’s first step is tokenisation. In this model we use BPE (Byte Pair Encoding) tokenisation model. The main reason for using it is that it solves unknown , subwords, words problems which you usually face in other tokenisation models. 
+This is llm model. It is almost similar to my previous uploaded repo, Transformer from scratch however this is in well organized form. Its readme file is almos similar to that. So, Transformer’s first step is tokenisation. In this model we use BPE (Byte Pair Encoding) tokenisation model. The main reason for using it is that it solves unknown , subwords, words problems which you usually face in other tokenisation models. 
 
 **Pre Tokenisation:**
 
