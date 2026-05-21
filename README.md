@@ -1,4 +1,7 @@
-This is llm. It is almost similar to my previous uploaded repo, Transformer from scratch, however this is in well organized form. It's readme file is almost similar to that. So, Transformer’s first step is tokenisation. In this model we use BPE (Byte Pair Encoding) tokenisation model. The main reason for using it is that it solves unknown , subwords, words problems which you usually face in other tokenisation models. 
+## Core Architecture Shift
+Initially built as an isolated script collection, this repository refactors those mathematical components into a scalable, decoupled workspace. By standardizing folder hierarchies and configuration files (`pyproject.toml`), this layout easily extends to accommodate future scratch architectures (e.g., Linear Regression, Logistic Regression) under a unified engineering sandbox.
+
+Transformer’s first step is tokenisation. In this model we use BPE (Byte Pair Encoding) tokenisation model. The main reason for using it is that it solves unknown , subwords, words problems which you usually face in other tokenisation models. 
 
 **Pre Tokenisation:**
 
@@ -144,6 +147,9 @@ x_2
 $$**
 
 As Sinusoidal method finds coordinates of word, RoPE finds angle between words. 
+
+
+
 
 
 
