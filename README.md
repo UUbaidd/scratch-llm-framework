@@ -62,7 +62,7 @@ Head 3 might focus on spelling
 
 If we don’t divide and let the each head to learn from same dimensions then each head will learn the same thing. 
 
-Then we generate matrices for Q, K , V and multiply it with small value to prevent weight explosion , symmetry problem, etc. 
+Then we generate matrices for Q, K , V using Linear class. Here we use uniform distribution and for uniform distibution we first need to find boundry. So when we find min and max bound so every number has equal chance. We use uniform distribution for weight initialisation because we want randomness. 
 
 Then we reshape our input and take transpose it because it takes last two values for computation. If we do not take transpose computation of num_head and head_dim will not give us meaningful information. We want to compare every word (seq_len) with every other word ( head_dim). 
 
