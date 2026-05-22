@@ -56,9 +56,9 @@ Then we have attention layer. This is like brain of the model. This is where mod
 We divide d_model // num_heads because we want each head to focus on different part of the sentence for different reasons. 
 For example:
 
-Head 1 might focus on grammar
-Head 2 might focus on vocabulary 
-Head 3 might focus on spelling 
+Head 1 might focus on grammar,
+Head 2 might focus on vocabulary,
+Head 3 might focus on spelling, etc. 
 
 If we don’t divide and let the each head to learn from same dimensions then each head will learn the same thing. 
 
